@@ -8,9 +8,6 @@ const About = () => {
    <>
       <div id="about" className='block w-full sm:flex 
       bg-black border-2 border-black h-auto sm:h-auto'>
-        {/* <div className='h-56 w-full sm:w-6/12 sm:pt-24 pt-6 cursor-pointer'>
-          <img src='./images/img2.jpg' className='h-56 w-full object-contain'/>
-        </div> */}
         <div className='h-54 w-full sm:w-6/12 sm:pt-24 pt-6 cursor-pointer
         md:pl-8'>
         <VideoCarousel/>
@@ -21,7 +18,7 @@ const About = () => {
             <h1 className='flex justify-start pl-10 w-full
             pt-4 text-white text-3xl font-bold'>About Me</h1>   
             <p className='p-10 leading-7 justify-normal
-            tracking-tight text-white'>Hello! I'm Ashish, a passionate 
+            tracking-tight text-white text-xl'>Hello! I'm Ashish, a passionate 
               and creative web developer based in 
               Sikkim. With a strong background 
               in designing and developing user-centric 
@@ -32,7 +29,6 @@ const About = () => {
               performance. Clean code, scalability, and a focus on 
               user experience are at the core of my development 
               philosophy.</p>
-          
           </div>
 
       </div>

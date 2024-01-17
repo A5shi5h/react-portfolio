@@ -19,7 +19,7 @@ const Navbar = () => {
               className='h-20 w-20 rounded-full' 
               src="./images/profile.jpg" alt="profile-pic"/>
           </h1>
-          <div className='hidden md:flex gap-10 
+          <div className='hidden md:flex gap-10 pr-20
           text-white'>
               <a href="#about" className='hover:text-red-700'>About</a>
               <a href='#projects' className='hover:text-red-700'>Projects</a>

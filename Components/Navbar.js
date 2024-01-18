@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 
@@ -21,10 +22,10 @@ const Navbar = () => {
           </h1>
           <div className='hidden md:flex gap-10 pr-20
           text-white'>
-              <a href="#about" className='hover:text-red-700'>About</a>
-              <a href='#projects' className='hover:text-red-700'>Projects</a>
-              <a href='#techs' className='hover:text-red-700'>Tech</a>
-              <a href='#contact' className='hover:text-red-700'>Contact</a>
+              <Link href="#about" className='hover:text-red-700'>About</Link>
+              <Link href='#projects' className='hover:text-red-700'>Projects</Link>
+              <Link href='#techs' className='hover:text-red-700'>Tech</Link>
+              <Link href='#contact' className='hover:text-red-700'>Contact</Link>
           </div>
 
       <div className="md:hidden">
@@ -41,10 +42,10 @@ const Navbar = () => {
       {isMenuOpen && (
           <div className='flex flex-col basis-full gap-2 
           items-center text-gray-300 font-semibold'>
-              <a href="#about" className='hover:text-red-700'>About</a>
-              <a href='#projects' className='hover:text-red-700'>Projects</a>
-              <a href='#techs' className='hover:text-red-700'>Tech</a>
-              <a href='#contact' className='hover:text-red-700'>Contact</a>
+              <Link href="#about" className='hover:text-red-700'>About</Link>
+              <Link href='#projects' className='hover:text-red-700'>Projects</Link>
+              <Link href='#techs' className='hover:text-red-700'>Tech</Link>
+              <Link href='#contact' className='hover:text-red-700'>Contact</Link>
           </div>
       )}
 

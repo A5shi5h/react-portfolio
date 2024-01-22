@@ -9,7 +9,7 @@ import Contact from '@/Components/Contact'
 const page = () => {
   return (
     <>
-      <div>
+      <div className='sticky top-0 z-10'>
         <Navbar/>
       </div>
       <div>

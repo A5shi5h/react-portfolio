@@ -18,7 +18,7 @@ const VideoCarousel = () => {
   ];
 
   return (
-    <Swiper
+    <Swiper id='demo'
       spaceBetween={30}
       slidesPerView={1}
       navigation
@@ -32,7 +32,7 @@ const VideoCarousel = () => {
             controls
             width="100%"
             height="50%"
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'cover'}}
           />
         </SwiperSlide>
       ))}

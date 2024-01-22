@@ -1,9 +1,20 @@
+"use client"
+import {useTypewriter , Cursor} from 'react-simple-typewriter';
 
 const Intro = () => {
+
+  const [typeEffect] = useTypewriter(
+    {
+       words : ['Web Developer'],
+       loop:{},
+       typeSpeed: 150,
+       deleteSpeed:40
+    }
+ )
  
   return (
     <>
-      <div className='flex bg-black text-white
+      <div id='home' className='flex bg-black text-white
       h-64 w-full sm:h-[400px]'>
       <img src="./images/img3.jpg"
         className="object-cover w-full opacity-20 overflow-visible"/>
@@ -13,7 +24,7 @@ const Intro = () => {
       <p className='flex absolute font-monserrate
       justify-center pt-40 w-full md:text-3xl 
       lg:text-4xl xl:text-5xl font-thin
-      '>I am a Web Developer</p>
+      '>I am a <span className='ml-4'>{typeEffect}</span></p>
       </div>
     </>
   )

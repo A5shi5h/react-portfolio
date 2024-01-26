@@ -61,6 +61,8 @@ const Projects = () => {
                 <div className='text-left pt-2 text-white
                 bg-black font-semibold pb-2 pl-2'>
                             <p>HTMl , CSS </p>
+                            <a href='https://euphoriasingtam.netlify.app'><button className='bg-transparent rounded-lg border-2 
+                            border-slate-500 p-3 font-semibold mt-2 hover:border-green-500'>View</button></a>
                 </div>
         </div>         
       </div>
